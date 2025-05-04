@@ -44,11 +44,11 @@ External Requirements:
 
 Neovim's configurations are located under the following paths, depending on your OS:
 
-| OS | PATH |
-| :- | :--- |
-| Linux, MacOS | `$XDG_CONFIG_HOME/nvim`, `~/.config/nvim` |
-| Windows (cmd)| `%localappdata%\nvim\` |
-| Windows (powershell)| `$env:LOCALAPPDATA\nvim\` |
+| OS                   | PATH                                      |
+| :------------------- | :---------------------------------------- |
+| Linux, MacOS         | `$XDG_CONFIG_HOME/nvim`, `~/.config/nvim` |
+| Windows (cmd)        | `%localappdata%\nvim\`                    |
+| Windows (powershell) | `$env:LOCALAPPDATA\nvim\`                 |
 
 #### Recommended Step
 
@@ -73,7 +73,7 @@ too - it's ignored in the kickstart repo to make maintenance easier, but it's
 <details><summary> Linux and Mac </summary>
 
 ```sh
-git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+git clone https://github.com/nvim-lua/kickstart.nvim.git "${HOME}/.config/nvim"
 ```
 
 </details>
